@@ -1,0 +1,60 @@
+/* Slider Container */
+.slider {
+    width: 800px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Hide the radio buttons */
+input[type="radio"] {
+    display: none;
+}
+
+/* Slides */
+.slides {
+    display: flex;
+    width: 300%; /* 3 slides */
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    width: 100%; /* Each slide takes up 100% of the slider's width */
+    flex-shrink: 0;
+}
+
+/* Radio button functionality */
+#slide1:checked ~ .slides {
+    transform: translateX(0);
+}
+
+#slide2:checked ~ .slides {
+    transform: translateX(-100%);
+}
+
+#slide3:checked ~ .slides {
+    transform: translateX(-200%);
+}
+
+/* Navigation buttons (dots) */
+.navigation {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.navigation label {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: lightgray;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+input[type="radio"]:checked + label {
+    background: darkgray;
+}
