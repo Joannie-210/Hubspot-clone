@@ -2585,17 +2585,18 @@ footer {
     height: 90%;;
   }
   .hero-text h1 {
-    font-size: 1.5rem;
-    text-align: center;
+    font-size: 1.8rem;
+    text-align left;
     line-height: 2rem;
   }
   .hero-text p:first-of-type {
     margin-bottom: 20px;
     height: 200px;
     justify-content: center;
+    margin-top:  -40px;
   }
   .hero-text h5 {
-    font-size: 0.7rem;
+    font-size: 0.85rem;
   }
   .back-img-div {
     margin-top: 50px;
