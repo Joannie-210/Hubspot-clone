@@ -2472,7 +2472,10 @@ footer {
     margin-bottom: 20px;
   }
   .flex-row p, .flex-row2 p {
-    font-size: 0.82rem;
+    font-size: 0.95rem;
+  }
+  .bi-r-circle {
+      font-size: 0.3rem;
   }
   .product {
     width: 100%;
@@ -2579,6 +2582,9 @@ footer {
   }
 }
 @media screen and (max-width: 400px) {
+    .hamburger {
+        width: 40%;
+    }
   .navbar-logo {
     content: url(hubspotologo.svg);
     width: 27%;
@@ -2586,14 +2592,14 @@ footer {
   }
   .hero-text h1 {
     font-size: 1.8rem;
-    text-align left;
+    text-align: left;
     line-height: 2rem;
   }
   .hero-text p:first-of-type {
     margin-bottom: 20px;
     height: 200px;
     justify-content: center;
-    margin-top:  -40px;
+    margin-top:  -20px;
   }
   .hero-text h5 {
     font-size: 0.85rem;
