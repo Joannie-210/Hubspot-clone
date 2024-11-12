@@ -2453,7 +2453,10 @@ footer {
    font-size: 1.5rem;
    width: 100%;
    text-align: center;
-  }
+  }o
+    .frontoffice p {
+        font-size: 0.75rem;
+    }
   .frontoff-btn {
     flex-direction: column;
     width: 100%;
