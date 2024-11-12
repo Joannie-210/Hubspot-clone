@@ -2169,6 +2169,7 @@ footer {
     }
     .frontoffice p {
         width: 78%;
+        font-aize: 0.8rem;
     }
     .frontoff-btn > button:first-child {
         width: 45%;
@@ -2472,7 +2473,7 @@ footer {
     margin-bottom: 20px;
   }
   .flex-row p, .flex-row2 p {
-    font-size: 0.95rem;
+    font-size: 0.99rem;
   }
   .bi-r-circle {
       font-size: 0.3rem;
