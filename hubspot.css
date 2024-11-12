@@ -2699,6 +2699,9 @@ footer {
     width: 100%;
   
   }
+    .customer-flex {
+        justify-content: center;
+    }
     .achieve {
         width: 92%;
     }
