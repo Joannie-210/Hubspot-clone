@@ -2583,11 +2583,11 @@ footer {
 }
 @media screen and (max-width: 400px) {
     .hamburger {
-        width: 40%;
+        width: 33%;
     }
   .navbar-logo {
     content: url(hubspotologo.svg);
-    width: 27%;
+    width: 29%;
     height: 90%;;
   }
   .hero-text h1 {
@@ -2616,6 +2616,7 @@ footer {
   }
   .second-div h3 {
     font-size: 0.7rem;
+    width: 95%;
   }
   .vid-background {
     height: 1100px;
@@ -2632,7 +2633,7 @@ footer {
     margin-bottom: 150px;
   }
   .drive .drive-para2 {
-    margin-top: 140px;
+    margin-top: 60px;
    
   }
   .drive-button {
@@ -2672,12 +2673,12 @@ footer {
     height: 98%;
   }
   .card-text p:first-of-type {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     width: 100%;
-    font-size: 0.8rem;
+    font-size: 0.88rem;
   }
   .card-text p:last-of-type {
-     font-size: 0.8rem;
+     font-size: 0.88rem;
   }
   .card-but button {
     height: 80%;
@@ -2698,6 +2699,9 @@ footer {
     width: 100%;
   
   }
+    .achieve {
+        width: 92%;
+    }
   .customer-result h3 {
     font-size: 0.95rem;
   }
@@ -2726,6 +2730,10 @@ footer {
     font-size: 0.9rem;
     margin-left: -20%;
   }
+    .afro-div img {
+        width: 45%;
+        height: 45%;
+    }
   .line-icon-div {
    display: none;
   }
