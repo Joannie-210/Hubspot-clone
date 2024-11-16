@@ -2655,12 +2655,16 @@ footer {
   .alt-footer {
     height: 700px;
   }
+  .line-icon-div {
+    width: 98%;
+    justify-content: space-between;
+  }
   .line-icon-div svg {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
   }
   .footer-img {
-    width: 70%;
+    width: 100%;
   }
   .getone, .gettwo {
     object-fit: contain;
@@ -2721,6 +2725,9 @@ footer {
   .slide .bi {
     font-size: 2rem;
   }
+  /* .slide .bi-chevron-left {
+  
+  } */
   .span-grid-text button {
     font-size: 1rem;
   }
