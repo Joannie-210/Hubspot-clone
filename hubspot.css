@@ -2530,7 +2530,7 @@ footer {
     height: 35%;
   }
   .flex-row p, .flex-row2 p {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
   .first-grid-container {
     padding: 0 5%;
@@ -2677,6 +2677,9 @@ footer {
   .second-div {
     height: 350px;
   }
+  .second-div h3 {
+    font-size: 1.1rem;
+  }
   .logo-div2 {
     display: none;
   }
@@ -2717,6 +2720,9 @@ footer {
   }
   .slide .bi {
     font-size: 2rem;
+  }
+  .span-grid-text button {
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 240px) {
