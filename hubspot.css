@@ -3057,3 +3057,8 @@ footer {
     margin-top: 40px;
   }
 }
+@media screen and (min-width: 1290px) {
+  .logo-div2 {
+    display: none;
+  }
+}
